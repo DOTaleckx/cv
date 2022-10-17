@@ -1,0 +1,208 @@
+/*** tag selectors **/
+a {
+  color: #11999E;
+  margin: 30px auto;
+  font-family: 'Martel', serif;
+  color: #06283D;
+  font-size: 1em;
+  text-decoration: none;
+
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  /* will align all line items in body that do not have specified width */
+  font-family: 'Martel', serif;
+  color: #06283D;
+  font-size: 1em;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Reenie Beanie', sans-serif;
+  font-size: 9rem;
+  color: #06283D;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Cairo', sans-serif;
+  margin: 30px;
+  font-size: 2.5rem;
+  color: #256D85;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Cairo', sans-serif;
+  color: #256D85;
+  font-size: 1.25rem;
+}
+
+hr {
+  border-style: dotted;
+  width: 5%;
+  border-width: 10px 0 0 0;
+  margin: 100px auto;
+}
+
+p {
+  margin: 30px auto;
+}
+/*** class selectors ***/
+.topcontainer {
+  background-color: #DFF6FF;
+  position: relative;
+  padding-top: 100px;
+  height: 800px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  background-color: #256D85;
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  margin-bottom:0;
+  font-family: 'Cairo', sans-serif;
+  font-size: 1rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottomcloud {
+  position: absolute;
+  margin: 0 auto 0 25%;
+  display: block;
+}
+
+.topcloud {
+  position: absolute;
+  margin: 0 auto 0 70%;
+  display: block;
+}
+
+.dev-image {
+  border-radius: 50%;
+  background-color: #47B5FF;
+  width: 17.3%;
+  float: left;
+  margin-right: 30px;
+}
+
+.team-image {
+  border-radius: 50%;
+  background-color: #06283D;
+  width: 17.3%;
+  float: right;
+  margin-left: 30px;
+}
+
+.mountain {
+  position: relative;
+  padding-top: 114px;
+}
+
+.selfie {
+  border-radius: 50%;
+  margin: 84px auto 24px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: 50px 50px 0px 50px;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 75px 50px 25px 50px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 2rem;
+  color: #06283D;
+}
+
+.subtitle {
+  color: #06283D;
+}
+
+.aboutme {
+  inline-size: 40%;
+  margin: 30px auto 30px auto;
+}
+
+.btn {
+  background: #47B5FF;
+  background-image: -webkit-linear-gradient(top, #47B5FF, #298cd7);
+  background-image: -moz-linear-gradient(top, #47B5FF, #298cd7);
+  background-image: -ms-linear-gradient(top, #47B5FF, #298cd7);
+  background-image: -o-linear-gradient(top, #47B5FF, #298cd7);
+  background-image: linear-gradient(to bottom, #47B5FF, #298cd7);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Cairo', sans-serif;
+  color: #DFF6FF;
+  font-size: 32px;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  margin: 50px auto 100px auto;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #47B5FF;
+  background-image: -webkit-linear-gradient(top, #47B5FF, #06283D);
+  background-image: -moz-linear-gradient(top, #47B5FF, #06283D);
+  background-image: -ms-linear-gradient(top, #47B5FF, #06283D);
+  background-image: -o-linear-gradient(top, #47B5FF, #06283D);
+  background-image: linear-gradient(to bottom, #47B5FF, #06283D);
+  text-decoration: none;
+}
+
+/* id selectors */
+
+#copyright {
+  margin: 0 auto 75px auto;
+}
+
+
+
+
+/*** The Box Model ***
+    BORDER does not infringe on size of element
+    adding to border increases element size (sum of border + interior)
+    circle shorthand = top right bottom left, compass NESW
+
+    between border and content = PADDING
+    padding increases size of box, like border width
+
+    final is MARGIN-- buffer between selected item and other items on the screen
+
+    ALL ITEMS ARE JUST. BOXES.
+
+    Hierarchy for Box Model (outer to inner)
+    1. MARGIN
+      2. BORDER
+        3. PADDING
+          4. ELEMENT/CONTENTS
+
+    INSIDE BORDER IS CHARACTERISTICS OF ELEMENT
+
+  ***/
+/* positioning
+    static will not move
+    relative moves relative to original position of ELEMENT
+    absolute positioning will position relative to the PARENT, or often relative to the entire page
+    fixed stays on screen, regardless of scrolling maybe for NAVBARS, SIDEBARS, or SEARCHBARS */
